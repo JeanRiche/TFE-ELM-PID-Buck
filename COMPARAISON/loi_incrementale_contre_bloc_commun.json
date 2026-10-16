@@ -1,0 +1,253 @@
+{
+ "J": {
+  "incrementale (Lu)": {
+   "J": 0.7281874601535949,
+   "apres30": 0.7474094443734879,
+   "demarrage": 0.6641141794206189
+  },
+  "bloc PID commun": {
+   "J": 0.7462728259497472,
+   "apres30": 0.6799434752721989,
+   "demarrage": 0.9673706615415755
+  }
+ },
+ "essais": {
+  "S4": {
+   "Ziegler-Nichols": {
+    "IAE_apres30_mVs": 23.614080609315362,
+    "IAE_dem_mVs": 93.76739984191492,
+    "depassement_pct": 13.99104197660587,
+    "e_max_V": 11.521818815726618,
+    "fenetres_gains_changes": 0,
+    "x_final": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "evenements": [
+     {
+      "t_ms": 50.0,
+      "IAE_mVs": 6.437577139859439,
+      "e_max_V": 10.471244561240852,
+      "revenu": true
+     },
+     {
+      "t_ms": 70.0,
+      "IAE_mVs": 7.398238373193173,
+      "e_max_V": 11.521818815726618,
+      "revenu": true
+     },
+     {
+      "t_ms": 100.0,
+      "IAE_mVs": 4.78385045654048,
+      "e_max_V": 6.90155047106704,
+      "revenu": true
+     },
+     {
+      "t_ms": 120.0,
+      "IAE_mVs": 4.819013978438837,
+      "e_max_V": 6.612068276674748,
+      "revenu": true
+     }
+    ]
+   },
+   "incrementale (Lu)": {
+    "IAE_apres30_mVs": 19.567734300212866,
+    "IAE_dem_mVs": 81.12657736269466,
+    "depassement_pct": 2.404294409776199,
+    "e_max_V": 11.520773405976271,
+    "fenetres_gains_changes": 6,
+    "x_final": [
+     1.5781264032249516,
+     1.2173962974309767,
+     0.9429468462643451
+    ],
+    "evenements": [
+     {
+      "t_ms": 50.0,
+      "IAE_mVs": 6.4063401315069735,
+      "e_max_V": 10.47151011973817,
+      "revenu": true
+     },
+     {
+      "t_ms": 70.0,
+      "IAE_mVs": 6.002605254422844,
+      "e_max_V": 11.520773405976271,
+      "revenu": true
+     },
+     {
+      "t_ms": 100.0,
+      "IAE_mVs": 3.489499167082502,
+      "e_max_V": 6.88920182680522,
+      "revenu": true
+     },
+     {
+      "t_ms": 120.0,
+      "IAE_mVs": 3.4938714371020345,
+      "e_max_V": 6.612998161228049,
+      "revenu": true
+     }
+    ]
+   },
+   "bloc PID commun": {
+    "IAE_apres30_mVs": 18.874984274422463,
+    "IAE_dem_mVs": 93.71570358116219,
+    "depassement_pct": 13.99104197660587,
+    "e_max_V": 11.512921246388473,
+    "fenetres_gains_changes": 2,
+    "x_final": [
+     1.73525236675536,
+     1.3211739322118665,
+     1.143127979117188
+    ],
+    "evenements": [
+     {
+      "t_ms": 50.0,
+      "IAE_mVs": 5.360451735812884,
+      "e_max_V": 10.470764049489972,
+      "revenu": true
+     },
+     {
+      "t_ms": 70.0,
+      "IAE_mVs": 6.2023506852245776,
+      "e_max_V": 11.512921246388473,
+      "revenu": true
+     },
+     {
+      "t_ms": 100.0,
+      "IAE_mVs": 3.4649778300610716,
+      "e_max_V": 6.889537015985795,
+      "revenu": true
+     },
+     {
+      "t_ms": 120.0,
+      "IAE_mVs": 3.6718329645780714,
+      "e_max_V": 6.611605457620939,
+      "revenu": true
+     }
+    ]
+   }
+  },
+  "S2": {
+   "Ziegler-Nichols": {
+    "IAE_apres30_mVs": 2.8414567097184946,
+    "IAE_dem_mVs": 93.76529077727879,
+    "depassement_pct": 13.991030509270812,
+    "e_max_V": 2.0125298979110084,
+    "fenetres_gains_changes": 0,
+    "x_final": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "evenements": [
+     {
+      "t_ms": 50.0,
+      "IAE_mVs": 1.1384797948946397,
+      "e_max_V": 2.0125298979110084,
+      "revenu": true
+     },
+     {
+      "t_ms": 70.0,
+      "IAE_mVs": 1.5275931383415742,
+      "e_max_V": 1.1124756891625793,
+      "revenu": true
+     }
+    ]
+   },
+   "incrementale (Lu)": {
+    "IAE_apres30_mVs": 5.614042017644115,
+    "IAE_dem_mVs": 81.12467543253949,
+    "depassement_pct": 2.4040320406440117,
+    "e_max_V": 5.337968216201432,
+    "fenetres_gains_changes": 4,
+    "x_final": [
+     1.408912611407282,
+     1.1764577842724444,
+     0.9566670652388326
+    ],
+    "evenements": [
+     {
+      "t_ms": 50.0,
+      "IAE_mVs": 3.8769275337474993,
+      "e_max_V": 5.337968216201432,
+      "revenu": true
+     },
+     {
+      "t_ms": 70.0,
+      "IAE_mVs": 1.5617074905400155,
+      "e_max_V": 1.1129397053619954,
+      "revenu": true
+     }
+    ]
+   },
+   "bloc PID commun": {
+    "IAE_apres30_mVs": 2.4061738124407044,
+    "IAE_dem_mVs": 93.71578446369207,
+    "depassement_pct": 13.991030509270812,
+    "e_max_V": 2.0126918247246266,
+    "fenetres_gains_changes": 1,
+    "x_final": [
+     1.4688503988622876,
+     1.0578221187366343,
+     1.1518128716055966
+    ],
+    "evenements": [
+     {
+      "t_ms": 50.0,
+      "IAE_mVs": 0.8199505751645484,
+      "e_max_V": 2.0126918247246266,
+      "revenu": true
+     },
+     {
+      "t_ms": 70.0,
+      "IAE_mVs": 1.4108426456979377,
+      "e_max_V": 1.113223770429343,
+      "revenu": true
+     }
+    ]
+   }
+  },
+  "S1": {
+   "Ziegler-Nichols": {
+    "IAE_apres30_mVs": 1.4908775046297125,
+    "IAE_dem_mVs": 93.76529077727879,
+    "depassement_pct": 13.991030509270812,
+    "e_max_V": 0.013605025892971412,
+    "fenetres_gains_changes": 0,
+    "x_final": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "evenements": []
+   },
+   "incrementale (Lu)": {
+    "IAE_apres30_mVs": 1.4909095568305946,
+    "IAE_dem_mVs": 81.12467543253949,
+    "depassement_pct": 2.4040320406440117,
+    "e_max_V": 0.013610719748101019,
+    "fenetres_gains_changes": 2,
+    "x_final": [
+     0.9688588830531141,
+     1.0292169972458458,
+     1.0714883308680097
+    ],
+    "evenements": []
+   },
+   "bloc PID commun": {
+    "IAE_apres30_mVs": 1.490688267800831,
+    "IAE_dem_mVs": 93.71578446369207,
+    "depassement_pct": 13.991030509270812,
+    "e_max_V": 0.013571438719949924,
+    "fenetres_gains_changes": 1,
+    "x_final": [
+     1.4688503988622876,
+     1.0578221187366343,
+     1.1518128716055966
+    ],
+    "evenements": []
+   }
+  }
+ }
+}

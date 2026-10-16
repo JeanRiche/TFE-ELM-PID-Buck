@@ -1,0 +1,173 @@
+{
+ "format": 2,
+ "Te": 4.5454545454545455e-06,
+ "Ts_powergui": 3.787878787878788e-08,
+ "Vref": 100.0,
+ "Vin_nominale": 200.0,
+ "graine_bruit": 20261002,
+ "ecart_type_bruit_V": 0.01,
+ "fc_bruit_Hz": 10000.0,
+ "pas_CAN_V": 0.048828125,
+ "bande_retour_V": 1.0,
+ "essais": [
+  {
+   "code": "S1",
+   "nom": "Nominal",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [],
+   "description": "R = 5 ohms, aucune perturbation"
+  },
+  {
+   "code": "S2",
+   "nom": "F1 a la consigne",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07
+   ],
+   "description": "consigne = 100 + F1(t), F1 = 2 exp(cos(10 pi t)) sur [0.05 ; 0.07) s"
+  },
+  {
+   "code": "S3",
+   "nom": "F2 (article)",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07
+   ],
+   "description": "charge de 4.333 ohms sur [0.05 ; 0.07) s"
+  },
+  {
+   "code": "S4",
+   "nom": "Charge +-20 %",
+   "duree": 0.2,
+   "R0": 6.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07,
+    0.1,
+    0.12
+   ],
+   "description": "4 ohms sur [0.05 ; 0.07) s, 6 ohms sur [0.10 ; 0.12) s, 5 ohms ailleurs"
+  },
+  {
+   "code": "S5",
+   "nom": "Vin +-20 %",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07,
+    0.1,
+    0.12
+   ],
+   "description": "Vin = 160 V sur [0.05 ; 0.07) s, 240 V sur [0.10 ; 0.12) s"
+  },
+  {
+   "code": "S6",
+   "nom": "Rampe de consigne",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07,
+    0.1,
+    0.12
+   ],
+   "description": "consigne 100 -> 110 V sur [0.05 ; 0.07) s, palier, 110 -> 100 V sur [0.10 ; 0.12) s"
+  },
+  {
+   "code": "S7a",
+   "nom": "Quantification 12 bits",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 0.048828125,
+   "evenements": [],
+   "description": "mesure quantifiee au pas de 48.8 mV (CAN 12 bits, 2.5 V, pont 1/80)"
+  },
+  {
+   "code": "S7b",
+   "nom": "Bruit de mesure",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [],
+   "description": "bruit gaussien de 10 mV filtre a 10 kHz sur la mesure, graine fixee"
+  },
+  {
+   "code": "S8a",
+   "nom": "Charge legere 25 ohms",
+   "duree": 0.2,
+   "R0": 25.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07,
+    0.1,
+    0.12
+   ],
+   "description": "R = 25 ohms pendant tout l'essai, Vin = 160 V puis 240 V"
+  },
+  {
+   "code": "S8b",
+   "nom": "Charge legere 98 ohms",
+   "duree": 0.2,
+   "R0": 98.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.07,
+    0.1,
+    0.12
+   ],
+   "description": "R = 98 ohms pendant tout l'essai, Vin = 160 V puis 240 V"
+  },
+  {
+   "code": "S9",
+   "nom": "Profil grand signal",
+   "duree": 0.42,
+   "R0": 98.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.09,
+    0.12,
+    0.15,
+    0.21,
+    0.27,
+    0.33,
+    0.37
+   ],
+   "description": "demarrage 5 ohms ; rampe 5 -> 98 ohms ; consigne 150 V, 50 V ; Vin 150 V ; consigne 100 V ; Vin 200 V et rampe 98 -> 5 ohms"
+  }
+ ],
+ "note_essais_complementaires": "Essais complementaires : simules et compares a Simulink comme les onze essais, mais hors du cout J (J reste defini sur les onze essais de la liste 'essais').",
+ "essais_complementaires": [
+  {
+   "code": "S10",
+   "nom": "Changement durable du point",
+   "duree": 0.2,
+   "R0": 5.0,
+   "q": 1e-09,
+   "evenements": [
+    0.05,
+    0.1,
+    0.115,
+    0.13,
+    0.145,
+    0.16,
+    0.175
+   ],
+   "description": "essai complementaire, hors du cout J : Vin 200 -> 160 V et charge 5 -> 25 ohms a 50 ms (durable) ; 20 ohms sur [0.10 ; 0.115) s, 30 ohms sur [0.13 ; 0.145) s, 20 ohms sur [0.16 ; 0.175) s"
+  }
+ ]
+}

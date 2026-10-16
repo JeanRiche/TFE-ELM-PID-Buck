@@ -1,0 +1,36 @@
+{
+ "note": "Regle de choix de la combinaison de corrections du PINN-PID. Lue telle quelle par choix_correction_pinn.py ; essais de reglage E1 a E4 seulement.",
+ "combinaisons": [
+  [],
+  [
+   "C1"
+  ],
+  [
+   "C2"
+  ],
+  [
+   "C3"
+  ],
+  [
+   "C1",
+   "C2"
+  ],
+  [
+   "C1",
+   "C3"
+  ],
+  [
+   "C2",
+   "C3"
+  ],
+  [
+   "C1",
+   "C2",
+   "C3"
+  ]
+ ],
+ "critere": "moyenne des 8 rapports a Ziegler-Nichols : IAE apres 30 ms et IAE de demarrage (0 a 30 ms) sur E1, E2, E3, E4",
+ "exclusion": "combinaison exclue si un evenement de E1 a E4 ne revient pas dans +-1 V",
+ "tolerance_relative": 0.01,
+ "regle": "parmi les combinaisons non exclues dont le critere est au plus (1 + tolerance) x le meilleur critere, on retient celle qui a le moins de corrections ; a nombre egal, celle dont le critere est le plus bas"
+}

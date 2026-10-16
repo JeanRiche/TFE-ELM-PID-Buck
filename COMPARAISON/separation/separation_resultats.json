@@ -1,0 +1,1274 @@
+{
+ "regle": "signe de la difference d'IAE identique dans les cinq variantes",
+ "valide": true,
+ "ecart_controle_max": 2.662515969258068e-10,
+ "variantes": [
+  "nominal",
+  "L - 0.1 %",
+  "L + 0.1 %",
+  "C - 0.1 %",
+  "C + 0.1 %"
+ ],
+ "IAE_mVs": {
+  "S1": {
+   "Ziegler-Nichols": {
+    "nominal": 93.76529077727879,
+    "L - 0.1 %": 93.66518037732723,
+    "L + 0.1 %": 93.85067068853266,
+    "C - 0.1 %": 93.73938079595355,
+    "C + 0.1 %": 93.7921203282183
+   },
+   "PSO-PID": {
+    "nominal": 87.62497775087627,
+    "L - 0.1 %": 87.56318507377216,
+    "L + 0.1 %": 87.68678716607086,
+    "C - 0.1 %": 87.60906389969335,
+    "C + 0.1 %": 87.6409840406358
+   },
+   "Fuzzy-PID": {
+    "nominal": 110.90660937047093,
+    "L - 0.1 %": 110.79745647850287,
+    "L + 0.1 %": 110.90449992379655,
+    "C - 0.1 %": 110.90600779119079,
+    "C + 0.1 %": 110.9262567750226
+   },
+   "ELM-PID": {
+    "nominal": 93.71578446369207,
+    "L - 0.1 %": 93.6149981495311,
+    "L + 0.1 %": 93.79929740306012,
+    "C - 0.1 %": 93.68985717188652,
+    "C + 0.1 %": 93.74030528973792
+   },
+   "PINN-PID": {
+    "nominal": 92.05530081585135,
+    "L - 0.1 %": 91.98241544029646,
+    "L + 0.1 %": 92.13548107673239,
+    "C - 0.1 %": 92.03476175600566,
+    "C + 0.1 %": 92.08173978752161
+   }
+  },
+  "S2": {
+   "Ziegler-Nichols": {
+    "nominal": 2.8414567097184946,
+    "L - 0.1 %": 2.843144489767409,
+    "L + 0.1 %": 2.8399884050360718,
+    "C - 0.1 %": 2.8407194505937587,
+    "C + 0.1 %": 2.8409796517527095
+   },
+   "PSO-PID": {
+    "nominal": 2.0416351005727607,
+    "L - 0.1 %": 2.042527272851538,
+    "L + 0.1 %": 2.040036859118338,
+    "C - 0.1 %": 2.042358212951658,
+    "C + 0.1 %": 2.0404638827094495
+   },
+   "Fuzzy-PID": {
+    "nominal": 2.4325247323146195,
+    "L - 0.1 %": 2.4327939224493798,
+    "L + 0.1 %": 2.429599471511144,
+    "C - 0.1 %": 2.4330360443401475,
+    "C + 0.1 %": 2.4291868098682317
+   },
+   "ELM-PID": {
+    "nominal": 2.4061738124407044,
+    "L - 0.1 %": 2.414478800485166,
+    "L + 0.1 %": 2.396569814578355,
+    "C - 0.1 %": 2.408449639560235,
+    "C + 0.1 %": 2.4067602973750466
+   },
+   "PINN-PID": {
+    "nominal": 2.439239127927467,
+    "L - 0.1 %": 2.4387226764660817,
+    "L + 0.1 %": 2.441976640758015,
+    "C - 0.1 %": 2.4391568748508727,
+    "C + 0.1 %": 2.401499412335815
+   }
+  },
+  "S3": {
+   "Ziegler-Nichols": {
+    "nominal": 8.665347394998436,
+    "L - 0.1 %": 8.659577494917496,
+    "L + 0.1 %": 8.679817649316265,
+    "C - 0.1 %": 8.66532978876793,
+    "C + 0.1 %": 8.67239545835026
+   },
+   "PSO-PID": {
+    "nominal": 5.462614108329642,
+    "L - 0.1 %": 5.45775408310795,
+    "L + 0.1 %": 5.467972945382252,
+    "C - 0.1 %": 5.464201661819921,
+    "C + 0.1 %": 5.46020191737874
+   },
+   "Fuzzy-PID": {
+    "nominal": 7.9413046307074655,
+    "L - 0.1 %": 7.935550901646829,
+    "L + 0.1 %": 7.951254024991311,
+    "C - 0.1 %": 7.942275284549303,
+    "C + 0.1 %": 7.942050257085895
+   },
+   "ELM-PID": {
+    "nominal": 6.4057300380839814,
+    "L - 0.1 %": 6.42560927626403,
+    "L + 0.1 %": 6.396808777815409,
+    "C - 0.1 %": 6.412658497565852,
+    "C + 0.1 %": 6.408611909022553
+   },
+   "PINN-PID": {
+    "nominal": 6.404028430353507,
+    "L - 0.1 %": 6.390401133596572,
+    "L + 0.1 %": 6.413499482906263,
+    "C - 0.1 %": 6.401624637551686,
+    "C + 0.1 %": 6.415758382975114
+   }
+  },
+  "S8a": {
+   "Ziegler-Nichols": {
+    "nominal": 12.071919968078197,
+    "L - 0.1 %": 11.9754208308012,
+    "L + 0.1 %": 12.141424413244115,
+    "C - 0.1 %": 12.112814238085349,
+    "C + 0.1 %": 12.216863587641651
+   },
+   "PSO-PID": {
+    "nominal": 2.4576071930509333,
+    "L - 0.1 %": 2.459528787433742,
+    "L + 0.1 %": 2.456509227576265,
+    "C - 0.1 %": 2.45915933065618,
+    "C + 0.1 %": 2.4562808969959575
+   },
+   "Fuzzy-PID": {
+    "nominal": 4.12122362677574,
+    "L - 0.1 %": 4.1176152895476115,
+    "L + 0.1 %": 4.126368829725506,
+    "C - 0.1 %": 4.1254551009963905,
+    "C + 0.1 %": 4.128823102974491
+   },
+   "ELM-PID": {
+    "nominal": 2.964964205793134,
+    "L - 0.1 %": 2.9798309168530257,
+    "L + 0.1 %": 2.950219811994025,
+    "C - 0.1 %": 2.9874605746920864,
+    "C + 0.1 %": 2.9596317752482837
+   },
+   "PINN-PID": {
+    "nominal": 2.952278543633339,
+    "L - 0.1 %": 2.9496811418893047,
+    "L + 0.1 %": 2.9464239455834647,
+    "C - 0.1 %": 2.9508771505914546,
+    "C + 0.1 %": 2.9479458856886143
+   }
+  },
+  "S10": {
+   "Ziegler-Nichols": {
+    "nominal": 70.4807166150822,
+    "L - 0.1 %": 69.77766709684617,
+    "L + 0.1 %": 71.0365372250476,
+    "C - 0.1 %": 69.8033001147079,
+    "C + 0.1 %": 71.1251221029089
+   },
+   "PSO-PID": {
+    "nominal": 3.97919679586484,
+    "L - 0.1 %": 3.9731110202380817,
+    "L + 0.1 %": 3.9756646590821556,
+    "C - 0.1 %": 3.97624966324976,
+    "C + 0.1 %": 3.9778600050296005
+   },
+   "Fuzzy-PID": {
+    "nominal": 9.17871666888531,
+    "L - 0.1 %": 9.168561849233608,
+    "L + 0.1 %": 9.191822427108168,
+    "C - 0.1 %": 9.172386095217815,
+    "C + 0.1 %": 9.189752779346758
+   },
+   "ELM-PID": {
+    "nominal": 8.632192631026227,
+    "L - 0.1 %": 8.623646318450412,
+    "L + 0.1 %": 7.877251015639838,
+    "C - 0.1 %": 8.628995851387508,
+    "C + 0.1 %": 8.627571067638378
+   },
+   "PINN-PID": {
+    "nominal": 6.626395893803462,
+    "L - 0.1 %": 6.639586873758987,
+    "L + 0.1 %": 6.752840235909095,
+    "C - 0.1 %": 6.710774099278714,
+    "C + 0.1 %": 6.6999681415537475
+   }
+  }
+ },
+ "scenarios": {
+  "S1": {
+   "ordre_nominal": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Ziegler-Nichols",
+    "Fuzzy-PID"
+   ],
+   "paires": [
+    {
+     "A": "PSO-PID",
+     "B": "PINN-PID",
+     "separee": true,
+     "ecart_nominal_pct": 5.056004781616941,
+     "ecart_min_pct": 5.046904544188391,
+     "ecart_max_pct": 5.073391390468118,
+     "ecart_pct": {
+      "nominal": 5.056004781616941,
+      "L - 0.1 %": 5.046904544188391,
+      "L + 0.1 %": 5.073391390468118,
+      "C - 0.1 %": 5.051643813223983,
+      "C + 0.1 %": 5.0669852643676405
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 6.950993733924116,
+     "ecart_min_pct": 6.911366998197099,
+     "ecart_max_pct": 6.970845248797541,
+     "ecart_pct": {
+      "nominal": 6.950993733924116,
+      "L - 0.1 %": 6.911366998197099,
+      "L + 0.1 %": 6.970845248797541,
+      "C - 0.1 %": 6.940826669664313,
+      "C + 0.1 %": 6.9594394858392805
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 7.007491681036249,
+     "ecart_min_pct": 6.968676731452983,
+     "ecart_max_pct": 7.029432508215816,
+     "ecart_pct": {
+      "nominal": 7.007491681036249,
+      "L - 0.1 %": 6.968676731452983,
+      "L + 0.1 %": 7.029432508215816,
+      "C - 0.1 %": 6.9973546381901786,
+      "C + 0.1 %": 7.018561412695301
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 26.56962913678096,
+     "ecart_min_pct": 26.47800598937835,
+     "ecart_max_pct": 26.591933362249943,
+     "ecart_pct": {
+      "nominal": 26.56962913678096,
+      "L - 0.1 %": 26.534292220133125,
+      "L + 0.1 %": 26.47800598937835,
+      "C - 0.1 %": 26.591933362249943,
+      "C + 0.1 %": 26.568931179036404
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 1.8037892800571775,
+     "ecart_min_pct": 1.7748856685485759,
+     "ecart_max_pct": 1.8058366949232907,
+     "ecart_pct": {
+      "nominal": 1.8037892800571775,
+      "L - 0.1 %": 1.7748856685485759,
+      "L + 0.1 %": 1.8058366949232907,
+      "C - 0.1 %": 1.7983372633360917,
+      "C + 0.1 %": 1.801188276897725
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 1.857568164214829,
+     "ecart_min_pct": 1.8294419960334762,
+     "ecart_max_pct": 1.8615951116289553,
+     "ecart_pct": {
+      "nominal": 1.857568164214829,
+      "L - 0.1 %": 1.8294419960334762,
+      "L + 0.1 %": 1.8615951116289553,
+      "C - 0.1 %": 1.8521469577625682,
+      "C + 0.1 %": 1.8574589757354598
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 20.478243390166085,
+     "ecart_min_pct": 20.371108532480477,
+     "ecart_max_pct": 20.50447643382278,
+     "ecart_pct": {
+      "nominal": 20.478243390166085,
+      "L - 0.1 %": 20.455041268642038,
+      "L + 0.1 %": 20.371108532480477,
+      "C - 0.1 %": 20.50447643382278,
+      "C + 0.1 %": 20.464987988915784
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 0.05282601417682109,
+     "ecart_min_pct": 0.05282601417682109,
+     "ecart_max_pct": 0.05527509038958378,
+     "ecart_pct": {
+      "nominal": 0.05282601417682109,
+      "L - 0.1 %": 0.053604901765824664,
+      "L + 0.1 %": 0.05476937130113324,
+      "C - 0.1 %": 0.05285910936567717,
+      "C + 0.1 %": 0.05527509038958378
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 18.343574676514642,
+     "ecart_min_pct": 18.235960177009147,
+     "ecart_max_pct": 18.37568242602714,
+     "ecart_pct": {
+      "nominal": 18.343574676514642,
+      "L - 0.1 %": 18.35438622935852,
+      "L + 0.1 %": 18.235960177009147,
+      "C - 0.1 %": 18.37568242602714,
+      "C + 0.1 %": 18.333577464000527
+     }
+    },
+    {
+     "A": "Ziegler-Nichols",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 18.28109149035544,
+     "ecart_min_pct": 18.171238532606093,
+     "ecart_max_pct": 18.313143152294288,
+     "ecart_pct": {
+      "nominal": 18.28109149035544,
+      "L - 0.1 %": 18.290976467625207,
+      "L + 0.1 %": 18.171238532606093,
+      "C - 0.1 %": 18.313143152294288,
+      "C + 0.1 %": 18.26820460700185
+     }
+    }
+   ],
+   "transitive": true,
+   "triplets_non_transitifs": [],
+   "groupes_ordonnes": [
+    [
+     "PSO-PID"
+    ],
+    [
+     "PINN-PID"
+    ],
+    [
+     "ELM-PID"
+    ],
+    [
+     "Ziegler-Nichols"
+    ],
+    [
+     "Fuzzy-PID"
+    ]
+   ],
+   "matrice_separee": {
+    "PSO-PID": {
+     "PSO-PID": null,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Ziegler-Nichols": true,
+     "Fuzzy-PID": true
+    },
+    "PINN-PID": {
+     "PSO-PID": true,
+     "PINN-PID": null,
+     "ELM-PID": true,
+     "Ziegler-Nichols": true,
+     "Fuzzy-PID": true
+    },
+    "ELM-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": null,
+     "Ziegler-Nichols": true,
+     "Fuzzy-PID": true
+    },
+    "Ziegler-Nichols": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Ziegler-Nichols": null,
+     "Fuzzy-PID": true
+    },
+    "Fuzzy-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Ziegler-Nichols": true,
+     "Fuzzy-PID": null
+    }
+   }
+  },
+  "S2": {
+   "ordre_nominal": [
+    "PSO-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "PINN-PID",
+    "Ziegler-Nichols"
+   ],
+   "paires": [
+    {
+     "A": "PSO-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 17.855233374743417,
+     "ecart_min_pct": 17.47678988575252,
+     "ecart_max_pct": 18.210357951027632,
+     "ecart_pct": {
+      "nominal": 17.855233374743417,
+      "L - 0.1 %": 18.210357951027632,
+      "L + 0.1 %": 17.47678988575252,
+      "C - 0.1 %": 17.92493717737664,
+      "C + 0.1 %": 17.951624518793597
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 19.145910629778975,
+     "ecart_min_pct": 19.050713440838397,
+     "ecart_max_pct": 19.145910629778975,
+     "ecart_pct": {
+      "nominal": 19.145910629778975,
+      "L - 0.1 %": 19.107047175580515,
+      "L + 0.1 %": 19.095861462089815,
+      "C - 0.1 %": 19.12876149301319,
+      "C + 0.1 %": 19.050713440838397
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "PINN-PID",
+     "separee": true,
+     "ecart_nominal_pct": 19.47478407102046,
+     "ecart_min_pct": 17.693796625645785,
+     "ecart_max_pct": 19.702574482570245,
+     "ecart_pct": {
+      "nominal": 19.47478407102046,
+      "L - 0.1 %": 19.397312774258424,
+      "L + 0.1 %": 19.702574482570245,
+      "C - 0.1 %": 19.428455761722276,
+      "C + 0.1 %": 17.693796625645785
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 39.1755416490122,
+     "ecart_min_pct": 39.090167071538964,
+     "ecart_max_pct": 39.232047958638084,
+     "ecart_pct": {
+      "nominal": 39.1755416490122,
+      "L - 0.1 %": 39.19738196680933,
+      "L + 0.1 %": 39.212602573438616,
+      "C - 0.1 %": 39.090167071538964,
+      "C + 0.1 %": 39.232047958638084
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 1.0951378382422883,
+     "ecart_min_pct": 0.7585538527210778,
+     "ecart_max_pct": 1.3782054973683344,
+     "ecart_pct": {
+      "nominal": 1.0951378382422883,
+      "L - 0.1 %": 0.7585538527210778,
+      "L + 0.1 %": 1.3782054973683344,
+      "C - 0.1 %": 1.020839480139668,
+      "C + 0.1 %": 0.9318132976368521
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "PINN-PID",
+     "separee": false,
+     "ecart_nominal_pct": 1.3741864912586221,
+     "ecart_min_pct": -0.21858782717038006,
+     "ecart_max_pct": 1.894659020715772,
+     "ecart_pct": {
+      "nominal": 1.3741864912586221,
+      "L - 0.1 %": 1.0041039074786706,
+      "L + 0.1 %": 1.894659020715772,
+      "C - 0.1 %": 1.2749793388349362,
+      "C + 0.1 %": -0.21858782717038006
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 18.09025162800939,
+     "ecart_min_pct": 17.75396367928792,
+     "ecart_max_pct": 18.502218786216762,
+     "ecart_pct": {
+      "nominal": 18.09025162800939,
+      "L - 0.1 %": 17.75396367928792,
+      "L + 0.1 %": 18.502218786216762,
+      "C - 0.1 %": 17.94805271960982,
+      "C + 0.1 %": 18.04165353945917
+     }
+    },
+    {
+     "A": "Fuzzy-PID",
+     "B": "PINN-PID",
+     "separee": false,
+     "ecart_nominal_pct": 0.27602579014514017,
+     "ecart_min_pct": -1.1397804985578075,
+     "ecart_max_pct": 0.5094324966729014,
+     "ecart_pct": {
+      "nominal": 0.27602579014514017,
+      "L - 0.1 %": 0.24370144803440574,
+      "L + 0.1 %": 0.5094324966729014,
+      "C - 0.1 %": 0.2515717153045882,
+      "C + 0.1 %": -1.1397804985578075
+     }
+    },
+    {
+     "A": "Fuzzy-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 16.811010057635233,
+     "ecart_min_pct": 16.756159745433497,
+     "ecart_max_pct": 16.95188036636899,
+     "ecart_pct": {
+      "nominal": 16.811010057635233,
+      "L - 0.1 %": 16.86746105090895,
+      "L + 0.1 %": 16.89121759932213,
+      "C - 0.1 %": 16.756159745433497,
+      "C + 0.1 %": 16.95188036636899
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 16.489469080170792,
+     "ecart_min_pct": 16.298753953457545,
+     "ecart_max_pct": 18.30024347120012,
+     "ecart_pct": {
+      "nominal": 16.489469080170792,
+      "L - 0.1 %": 16.583345749151324,
+      "L + 0.1 %": 16.298753953457545,
+      "C - 0.1 %": 16.46317134757629,
+      "C + 0.1 %": 18.30024347120012
+     }
+    }
+   ],
+   "transitive": false,
+   "triplets_non_transitifs": [
+    [
+     "ELM-PID",
+     "PINN-PID",
+     "Fuzzy-PID"
+    ]
+   ],
+   "groupes_ordonnes": null,
+   "matrice_separee": {
+    "PSO-PID": {
+     "PSO-PID": null,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "PINN-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "ELM-PID": {
+     "PSO-PID": true,
+     "ELM-PID": null,
+     "Fuzzy-PID": true,
+     "PINN-PID": false,
+     "Ziegler-Nichols": true
+    },
+    "Fuzzy-PID": {
+     "PSO-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": null,
+     "PINN-PID": false,
+     "Ziegler-Nichols": true
+    },
+    "PINN-PID": {
+     "PSO-PID": true,
+     "ELM-PID": false,
+     "Fuzzy-PID": false,
+     "PINN-PID": null,
+     "Ziegler-Nichols": true
+    },
+    "Ziegler-Nichols": {
+     "PSO-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "PINN-PID": true,
+     "Ziegler-Nichols": null
+    }
+   }
+  },
+  "S3": {
+   "ordre_nominal": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "paires": [
+    {
+     "A": "PSO-PID",
+     "B": "PINN-PID",
+     "separee": true,
+     "ecart_nominal_pct": 17.233769461920325,
+     "ecart_min_pct": 17.08847698681066,
+     "ecart_max_pct": 17.500386983034954,
+     "ecart_pct": {
+      "nominal": 17.233769461920325,
+      "L - 0.1 %": 17.08847698681066,
+      "L + 0.1 %": 17.29208514688274,
+      "C - 0.1 %": 17.15571704246994,
+      "C + 0.1 %": 17.500386983034954
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 17.26491952481568,
+     "ecart_min_pct": 16.986840310129292,
+     "ecart_max_pct": 17.733580121384463,
+     "ecart_pct": {
+      "nominal": 17.26491952481568,
+      "L - 0.1 %": 17.733580121384463,
+      "L + 0.1 %": 16.986840310129292,
+      "C - 0.1 %": 17.35764699851938,
+      "C + 0.1 %": 17.369504021915596
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 45.37553766791258,
+     "ecart_min_pct": 45.351064548815145,
+     "ecart_max_pct": 45.45341687471161,
+     "ecart_pct": {
+      "nominal": 45.37553766791258,
+      "L - 0.1 %": 45.39956877514501,
+      "L + 0.1 %": 45.41502133265327,
+      "C - 0.1 %": 45.351064548815145,
+      "C + 0.1 %": 45.45341687471161
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 58.630048236157165,
+     "ecart_min_pct": 58.58363810609863,
+     "ecart_max_pct": 58.82920795928346,
+     "ecart_pct": {
+      "nominal": 58.630048236157165,
+      "L - 0.1 %": 58.66558593615212,
+      "L + 0.1 %": 58.7392208413621,
+      "C - 0.1 %": 58.58363810609863,
+      "C + 0.1 %": 58.82920795928346
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "ELM-PID",
+     "separee": false,
+     "ecart_nominal_pct": 0.026570895944333373,
+     "ecart_min_pct": -0.2602433372816182,
+     "ecart_max_pct": 0.5509535619345751,
+     "ecart_pct": {
+      "nominal": 0.026570895944333373,
+      "L - 0.1 %": 0.5509535619345751,
+      "L + 0.1 %": -0.2602433372816182,
+      "C - 0.1 %": 0.17236030912279876,
+      "C + 0.1 %": -0.11138938728623149
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 24.004830975884662,
+     "ecart_min_pct": 23.789734322928304,
+     "ecart_max_pct": 24.179229687583547,
+     "ecart_pct": {
+      "nominal": 24.004830975884662,
+      "L - 0.1 %": 24.179229687583547,
+      "L + 0.1 %": 23.976840509359754,
+      "C - 0.1 %": 24.066557073031404,
+      "C + 0.1 %": 23.789734322928304
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 35.310882661401656,
+     "ecart_min_pct": 35.173348818175086,
+     "ecart_max_pct": 35.50913806319718,
+     "ecart_pct": {
+      "nominal": 35.310882661401656,
+      "L - 0.1 %": 35.50913806319718,
+      "L + 0.1 %": 35.33668588343013,
+      "C - 0.1 %": 35.36141650570133,
+      "C + 0.1 %": 35.173348818175086
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 23.971890533850694,
+     "ecart_min_pct": 23.49880860264053,
+     "ecart_max_pct": 24.300323820321633,
+     "ecart_pct": {
+      "nominal": 23.971890533850694,
+      "L - 0.1 %": 23.49880860264053,
+      "L + 0.1 %": 24.300323820321633,
+      "C - 0.1 %": 23.8530835154261,
+      "C + 0.1 %": 23.92777671408759
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 35.27493889814828,
+     "ecart_min_pct": 34.76663647921552,
+     "ecart_max_pct": 35.68980957221193,
+     "ecart_pct": {
+      "nominal": 35.27493889814828,
+      "L - 0.1 %": 34.76663647921552,
+      "L + 0.1 %": 35.68980957221193,
+      "C - 0.1 %": 35.12850859058156,
+      "C + 0.1 %": 35.32408548785071
+     }
+    },
+    {
+     "A": "Fuzzy-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 9.11742840705594,
+     "ecart_min_pct": 9.10387109881774,
+     "ecart_max_pct": 9.195927721720864,
+     "ecart_pct": {
+      "nominal": 9.11742840705594,
+      "L - 0.1 %": 9.123835285593241,
+      "L + 0.1 %": 9.16287697556928,
+      "C - 0.1 %": 9.10387109881774,
+      "C + 0.1 %": 9.195927721720864
+     }
+    }
+   ],
+   "transitive": true,
+   "triplets_non_transitifs": [],
+   "groupes_ordonnes": [
+    [
+     "PSO-PID"
+    ],
+    [
+     "PINN-PID",
+     "ELM-PID"
+    ],
+    [
+     "Fuzzy-PID"
+    ],
+    [
+     "Ziegler-Nichols"
+    ]
+   ],
+   "matrice_separee": {
+    "PSO-PID": {
+     "PSO-PID": null,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "PINN-PID": {
+     "PSO-PID": true,
+     "PINN-PID": null,
+     "ELM-PID": false,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "ELM-PID": {
+     "PSO-PID": true,
+     "PINN-PID": false,
+     "ELM-PID": null,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "Fuzzy-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": null,
+     "Ziegler-Nichols": true
+    },
+    "Ziegler-Nichols": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": null
+    }
+   }
+  },
+  "S8a": {
+   "ordre_nominal": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "paires": [
+    {
+     "A": "PSO-PID",
+     "B": "PINN-PID",
+     "separee": true,
+     "ecart_nominal_pct": 20.128169871130154,
+     "ecart_min_pct": 19.928709798391296,
+     "ecart_max_pct": 20.128169871130154,
+     "ecart_pct": {
+      "nominal": 20.128169871130154,
+      "L - 0.1 %": 19.928709798391296,
+      "L + 0.1 %": 19.943532574904175,
+      "C - 0.1 %": 19.995362390938265,
+      "C + 0.1 %": 20.01664342600087
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 20.644349275050544,
+     "ecart_min_pct": 20.09805535739362,
+     "ecart_max_pct": 21.483001831155836,
+     "ecart_pct": {
+      "nominal": 20.644349275050544,
+      "L - 0.1 %": 21.15454521523059,
+      "L + 0.1 %": 20.09805535739362,
+      "C - 0.1 %": 21.483001831155836,
+      "C + 0.1 %": 20.492398848516324
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 67.69252785509441,
+     "ecart_min_pct": 67.41480362357977,
+     "ecart_max_pct": 68.09246483266878,
+     "ecart_pct": {
+      "nominal": 67.69252785509441,
+      "L - 0.1 %": 67.41480362357977,
+      "L + 0.1 %": 67.97693179426084,
+      "C - 0.1 %": 67.75875599307311,
+      "C + 0.1 %": 68.09246483266878
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 391.20624330090044,
+     "ecart_min_pct": 386.89899024504956,
+     "ecart_max_pct": 397.3724138221703,
+     "ecart_pct": {
+      "nominal": 391.20624330090044,
+      "L - 0.1 %": 386.89899024504956,
+      "L + 0.1 %": 394.2551925694801,
+      "C - 0.1 %": 392.5591476357604,
+      "C + 0.1 %": 397.3724138221703
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 0.4296905584045163,
+     "ecart_min_pct": 0.12882960770972396,
+     "ecart_max_pct": 1.2397474457145563,
+     "ecart_pct": {
+      "nominal": 0.4296905584045163,
+      "L - 0.1 %": 1.0221367501576761,
+      "L + 0.1 %": 0.12882960770972396,
+      "C - 0.1 %": 1.2397474457145563,
+      "C + 0.1 %": 0.39640787222048335
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 39.594674617110904,
+     "ecart_min_pct": 39.594674617110904,
+     "ecart_max_pct": 40.057628704064015,
+     "ecart_pct": {
+      "nominal": 39.594674617110904,
+      "L - 0.1 %": 39.59526780953115,
+      "L + 0.1 %": 40.046677122303365,
+      "C - 0.1 %": 39.804366310861525,
+      "C + 0.1 %": 40.057628704064015
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 308.90179533064685,
+     "ecart_min_pct": 305.9903513208484,
+     "ecart_max_pct": 314.41953351148095,
+     "ecart_pct": {
+      "nominal": 308.90179533064685,
+      "L - 0.1 %": 305.9903513208484,
+      "L + 0.1 %": 312.07323309476476,
+      "C - 0.1 %": 310.481820148207,
+      "C + 0.1 %": 314.41953351148095
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 38.99741584479954,
+     "ecart_min_pct": 38.0923696849655,
+     "ecart_max_pct": 39.86648767491441,
+     "ecart_pct": {
+      "nominal": 38.99741584479954,
+      "L - 0.1 %": 38.1828501160794,
+      "L + 0.1 %": 39.86648767491441,
+      "C - 0.1 %": 38.0923696849655,
+      "C + 0.1 %": 39.50462140271229
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 307.1523003377687,
+     "ecart_min_pct": 301.8825619625539,
+     "ecart_max_pct": 312.78322829929675,
+     "ecart_pct": {
+      "nominal": 307.1523003377687,
+      "L - 0.1 %": 301.8825619625539,
+      "L + 0.1 %": 311.543043805873,
+      "C - 0.1 %": 305.45519966682076,
+      "C + 0.1 %": 312.78322829929675
+     }
+    },
+    {
+     "A": "Fuzzy-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 192.92076968710194,
+     "ecart_min_pct": 190.833892646559,
+     "ecart_max_pct": 195.89215335576782,
+     "ecart_pct": {
+      "nominal": 192.92076968710194,
+      "L - 0.1 %": 190.833892646559,
+      "L + 0.1 %": 194.23992169046568,
+      "C - 0.1 %": 193.61158809266476,
+      "C + 0.1 %": 195.89215335576782
+     }
+    }
+   ],
+   "transitive": true,
+   "triplets_non_transitifs": [],
+   "groupes_ordonnes": [
+    [
+     "PSO-PID"
+    ],
+    [
+     "PINN-PID"
+    ],
+    [
+     "ELM-PID"
+    ],
+    [
+     "Fuzzy-PID"
+    ],
+    [
+     "Ziegler-Nichols"
+    ]
+   ],
+   "matrice_separee": {
+    "PSO-PID": {
+     "PSO-PID": null,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "PINN-PID": {
+     "PSO-PID": true,
+     "PINN-PID": null,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "ELM-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": null,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "Fuzzy-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": null,
+     "Ziegler-Nichols": true
+    },
+    "Ziegler-Nichols": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": null
+    }
+   }
+  },
+  "S10": {
+   "ordre_nominal": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "paires": [
+    {
+     "A": "PSO-PID",
+     "B": "PINN-PID",
+     "separee": true,
+     "ecart_nominal_pct": 66.52596575996384,
+     "ecart_min_pct": 66.52596575996384,
+     "ecart_max_pct": 69.85437190942794,
+     "ecart_pct": {
+      "nominal": 66.52596575996384,
+      "L - 0.1 %": 67.1130466764838,
+      "L + 0.1 %": 69.85437190942794,
+      "C - 0.1 %": 68.77144715792436,
+      "C + 0.1 %": 68.43147152193183
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 116.93304136143139,
+     "ecart_min_pct": 98.13670646604346,
+     "ecart_max_pct": 117.05022272278853,
+     "ecart_pct": {
+      "nominal": 116.93304136143139,
+      "L - 0.1 %": 117.05022272278853,
+      "L + 0.1 %": 98.13670646604346,
+      "C - 0.1 %": 117.01343180586635,
+      "C + 0.1 %": 116.88976124674295
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 130.66757287359553,
+     "ecart_min_pct": 130.66757287359553,
+     "ecart_max_pct": 131.20215650256185,
+     "ecart_pct": {
+      "nominal": 130.66757287359553,
+      "L - 0.1 %": 130.76530714926253,
+      "L + 0.1 %": 131.20215650256185,
+      "C - 0.1 %": 130.6793303245775,
+      "C + 0.1 %": 131.02252889059062
+     }
+    },
+    {
+     "A": "PSO-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 1671.2297287815818,
+     "ecart_min_pct": 1655.5059673405456,
+     "ecart_max_pct": 1688.024767412086,
+     "ecart_pct": {
+      "nominal": 1671.2297287815818,
+      "L - 0.1 %": 1656.2476039913142,
+      "L + 0.1 %": 1686.7839296447978,
+      "C - 0.1 %": 1655.5059673405456,
+      "C + 0.1 %": 1688.024767412086
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "ELM-PID",
+     "separee": true,
+     "ecart_nominal_pct": 30.26979929011553,
+     "ecart_min_pct": 16.650931170436166,
+     "ecart_max_pct": 30.26979929011553,
+     "ecart_pct": {
+      "nominal": 30.26979929011553,
+      "L - 0.1 %": 29.88227253314262,
+      "L + 0.1 %": 16.650931170436166,
+      "C - 0.1 %": 28.584209865073063,
+      "C + 0.1 %": 28.77032972932334
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 38.51748093512792,
+     "ecart_min_pct": 36.11787197673464,
+     "ecart_max_pct": 38.51748093512792,
+     "ecart_pct": {
+      "nominal": 38.51748093512792,
+      "L - 0.1 %": 38.08934235757424,
+      "L + 0.1 %": 36.11787197673464,
+      "C - 0.1 %": 36.68149098035769,
+      "C + 0.1 %": 37.161141444108715
+     }
+    },
+    {
+     "A": "PINN-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 963.6357643676376,
+     "ecart_min_pct": 940.1676331529396,
+     "ecart_max_pct": 963.6357643676376,
+     "ecart_pct": {
+      "nominal": 963.6357643676376,
+      "L - 0.1 %": 950.9338671751079,
+      "L + 0.1 %": 951.9505088733137,
+      "C - 0.1 %": 940.1676331529396,
+      "C + 0.1 %": 961.5740343865982
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Fuzzy-PID",
+     "separee": true,
+     "ecart_nominal_pct": 6.33123079175435,
+     "ecart_min_pct": 6.297259300952529,
+     "ecart_max_pct": 16.6882000949103,
+     "ecart_pct": {
+      "nominal": 6.33123079175435,
+      "L - 0.1 %": 6.318852961505872,
+      "L + 0.1 %": 16.6882000949103,
+      "C - 0.1 %": 6.297259300952529,
+      "C + 0.1 %": 6.516106413972045
+     }
+    },
+    {
+     "A": "ELM-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 716.4868374433299,
+     "ecart_min_pct": 708.938853568736,
+     "ecart_max_pct": 801.7934947611616,
+     "ecart_pct": {
+      "nominal": 716.4868374433299,
+      "L - 0.1 %": 709.143424024196,
+      "L + 0.1 %": 801.7934947611616,
+      "C - 0.1 %": 708.938853568736,
+      "C + 0.1 %": 724.3933494757982
+     }
+    },
+    {
+     "A": "Fuzzy-PID",
+     "B": "Ziegler-Nichols",
+     "separee": true,
+     "ecart_nominal_pct": 667.8711431850046,
+     "ecart_min_pct": 661.015720338038,
+     "ecart_max_pct": 673.9612132195437,
+     "ecart_pct": {
+      "nominal": 667.8711431850046,
+      "L - 0.1 %": 661.0535680978018,
+      "L + 0.1 %": 672.8232109396433,
+      "C - 0.1 %": 661.015720338038,
+      "C + 0.1 %": 673.9612132195437
+     }
+    }
+   ],
+   "transitive": true,
+   "triplets_non_transitifs": [],
+   "groupes_ordonnes": [
+    [
+     "PSO-PID"
+    ],
+    [
+     "PINN-PID"
+    ],
+    [
+     "ELM-PID"
+    ],
+    [
+     "Fuzzy-PID"
+    ],
+    [
+     "Ziegler-Nichols"
+    ]
+   ],
+   "matrice_separee": {
+    "PSO-PID": {
+     "PSO-PID": null,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "PINN-PID": {
+     "PSO-PID": true,
+     "PINN-PID": null,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "ELM-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": null,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": true
+    },
+    "Fuzzy-PID": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": null,
+     "Ziegler-Nichols": true
+    },
+    "Ziegler-Nichols": {
+     "PSO-PID": true,
+     "PINN-PID": true,
+     "ELM-PID": true,
+     "Fuzzy-PID": true,
+     "Ziegler-Nichols": null
+    }
+   }
+  }
+ }
+}

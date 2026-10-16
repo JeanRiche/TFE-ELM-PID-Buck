@@ -1,0 +1,179 @@
+{
+ "loi": "bloc PID parallele de la base commune (Forward Euler, derivee filtree N), C(z) = P + I Tc/(z-1) + D N (z-1)/(z-1+Tc N)",
+ "K_depart": [
+  0.09391,
+  301.089,
+  7.3227e-06
+ ],
+ "K_min": [
+  0.09391,
+  75.27225000000001,
+  7.3227e-06
+ ],
+ "K_max": [
+  0.223356880339811,
+  301.089,
+  1.7416413882060847e-05
+ ],
+ "multiplicateurs_min": [
+  1.0,
+  0.25000000000000006,
+  1.0
+ ],
+ "multiplicateurs_max": [
+  2.3784142300054416,
+  1.0,
+  2.3784142300054416
+ ],
+ "critere": {
+  "coins_nominaux": [
+   [
+    4.0,
+    160.0
+   ],
+   [
+    4.0,
+    200.0
+   ],
+   [
+    4.0,
+    240.0
+   ],
+   [
+    5.0,
+    160.0
+   ],
+   [
+    5.0,
+    200.0
+   ],
+   [
+    5.0,
+    240.0
+   ],
+   [
+    6.0,
+    160.0
+   ],
+   [
+    6.0,
+    200.0
+   ],
+   [
+    6.0,
+    240.0
+   ]
+  ],
+  "marge_minimale_deg": 24.929973638139643,
+  "coupure_maximale_Hz": 2200.0,
+  "pas_grille": 1.189207115002721,
+  "octaves": 2
+ },
+ "depart": {
+  "marge_nominale_deg": 24.929973638139643,
+  "coupure_nominale_Hz": 1078.2506473231522,
+  "marge_legere_deg": -3.0930034135700737
+ },
+ "grille_fine": {
+  "marge_minimale_deg": 24.929973638139643,
+  "coupure_maximale_Hz": 2063.3144971974866,
+  "reglages": 2057
+ },
+ "coins_boite": [
+  {
+   "a": 1.0,
+   "b": 0.25000000000000006,
+   "c": 1.0,
+   "marge_nominale_deg": 49.06011405666115,
+   "coupure_nominale_Hz": 1130.8955352420007,
+   "marge_gain_nominale_dB": 39.11740441156155,
+   "marge_legere_deg": 19.50057007045578,
+   "coupure_legere_Hz": 1210.311649734427
+  },
+  {
+   "a": 1.0,
+   "b": 0.25000000000000006,
+   "c": 2.3784142300054416,
+   "marge_nominale_deg": 73.18365499415214,
+   "coupure_nominale_Hz": 1570.214814480066,
+   "marge_gain_nominale_dB": 33.12822884327664,
+   "marge_legere_deg": 49.05437825186556,
+   "coupure_legere_Hz": 1654.2890254335193
+  },
+  {
+   "a": 1.0,
+   "b": 1.0,
+   "c": 1.0,
+   "marge_nominale_deg": 24.929973638139643,
+   "coupure_nominale_Hz": 1078.2506473231522,
+   "marge_gain_nominale_dB": 39.09608157620519,
+   "marge_legere_deg": -3.0930034135700737,
+   "coupure_legere_Hz": 1154.5476166665162
+  },
+  {
+   "a": 1.0,
+   "b": 1.0,
+   "c": 2.3784142300054416,
+   "marge_nominale_deg": 58.47349985257563,
+   "coupure_nominale_Hz": 1415.4226220109392,
+   "marge_gain_nominale_dB": 33.116780278851124,
+   "marge_legere_deg": 35.377778302115104,
+   "coupure_legere_Hz": 1520.6375685058565
+  },
+  {
+   "a": 2.3784142300054416,
+   "b": 0.25000000000000006,
+   "c": 1.0,
+   "marge_nominale_deg": 33.79015123682069,
+   "coupure_nominale_Hz": 1752.8239933047944,
+   "marge_gain_nominale_dB": 35.91440899752764,
+   "marge_legere_deg": 14.197382030001307,
+   "coupure_legere_Hz": 1801.8069258112578
+  },
+  {
+   "a": 2.3784142300054416,
+   "b": 0.25000000000000006,
+   "c": 2.3784142300054416,
+   "marge_nominale_deg": 52.186234742440746,
+   "coupure_nominale_Hz": 2063.3144971974866,
+   "marge_gain_nominale_dB": 31.60655957294675,
+   "marge_legere_deg": 33.94539904169818,
+   "coupure_legere_Hz": 2116.3302249427747
+  },
+  {
+   "a": 2.3784142300054416,
+   "b": 1.0,
+   "c": 1.0,
+   "marge_nominale_deg": 28.625667647861917,
+   "coupure_nominale_Hz": 1729.4000355112646,
+   "marge_gain_nominale_dB": 35.891397610739716,
+   "marge_legere_deg": 8.075405567719287,
+   "coupure_legere_Hz": 1778.855443237907
+  },
+  {
+   "a": 2.3784142300054416,
+   "b": 1.0,
+   "c": 2.3784142300054416,
+   "marge_nominale_deg": 48.00073295441871,
+   "coupure_nominale_Hz": 2012.6384967203942,
+   "marge_gain_nominale_dB": 31.5947803002011,
+   "marge_legere_deg": 29.577324084881695,
+   "coupure_legere_Hz": 2067.957285975074
+  }
+ ],
+ "bornes_fixees_par_la_grille": [
+  false,
+  false,
+  true,
+  false,
+  false,
+  false
+ ],
+ "volume_max": 200,
+ "paves_admissibles": 491,
+ "sens_depuis_depart": [
+  "P ne peut que monter",
+  "I ne peut que baisser",
+  "D ne peut que monter"
+ ]
+}

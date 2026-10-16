@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+
+# Sorties de simulation et traces regenerees par les scripts
+*.png
+!COMPARAISON/classement_par_essai.png
+*_sortie_console.txt
+reference_rejeu_*.mat
+banc_commun_pid_classique*.png
+
+# Sorties MATLAB / Simulink (regenerees par les scripts .m)
+resultats_*.mat
+Buck_Commun_*.slx
+ZN_S*.slx
+*_S1.slx
+*_S2.slx
+*_S3.slx
+*_S8a.slx
+*_S10.slx
+Donnees_ELM.slx
+slprj/
+*.slxc
+*.asv
+figures_comparaison/
+figures_zn/
+pdf_memoire/
+metriques_simulink*.csv
+metriques_simulink*.md
+
+# Fichiers produits par scenarios_communs.py (copies deja presentes dans chaque dossier de methode)
+COMPARAISON/scenarios/scenario_S*.mat
+COMPARAISON/scenarios/scenarios_communs.json
+COMPARAISON/scenarios/scenarios_communs.png
+
+# Sorties de la loi incrementale, sans usage dans ce depot
+ELM_PID_INCREMENTAL/predictions_banc_elm_pid.json
+ELM_PID_INCREMENTAL/elm_pid_reglages.mat
+ELM_PID_INCREMENTAL/predictions_banc_pid_classique.json

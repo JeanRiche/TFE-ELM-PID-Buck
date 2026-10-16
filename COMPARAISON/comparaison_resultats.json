@@ -1,0 +1,257 @@
+{
+ "essais": {
+  "S1": {
+   "ordre": [
+    "ELM-PID",
+    "PINN-PID",
+    "Ziegler-Nichols",
+    "PSO-PID",
+    "Fuzzy-PID"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 1.4908775046297125,
+    "PSO-PID": 1.4909869184258573,
+    "Fuzzy-PID": 1.4939933304342057,
+    "ELM-PID": 1.490688267800831,
+    "PINN-PID": 1.4907196871610093
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S2": {
+   "ordre": [
+    "PSO-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "PINN-PID",
+    "Ziegler-Nichols"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 2.8414567097184946,
+    "PSO-PID": 2.0416351005727607,
+    "Fuzzy-PID": 2.4325247323146195,
+    "ELM-PID": 2.4061738124407044,
+    "PINN-PID": 2.439239127927467
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S3": {
+   "ordre": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 8.665347394998436,
+    "PSO-PID": 5.462614108329642,
+    "Fuzzy-PID": 7.9413046307074655,
+    "ELM-PID": 6.4057300380839814,
+    "PINN-PID": 6.404028430353507
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S4": {
+   "ordre": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 23.614080609315362,
+    "PSO-PID": 16.544520963512806,
+    "Fuzzy-PID": 22.37871959492496,
+    "ELM-PID": 18.874984274422463,
+    "PINN-PID": 18.303626271415435
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S5": {
+   "ordre": [
+    "ELM-PID",
+    "PSO-PID",
+    "PINN-PID",
+    "Ziegler-Nichols",
+    "Fuzzy-PID"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 3.8703883036315845,
+    "PSO-PID": 2.464026220021012,
+    "Fuzzy-PID": 4.053451549602561,
+    "ELM-PID": 2.4611744657646275,
+    "PINN-PID": 3.054851380617522
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S6": {
+   "ordre": [
+    "PSO-PID",
+    "ELM-PID",
+    "PINN-PID",
+    "Ziegler-Nichols",
+    "Fuzzy-PID"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 1.6465148287117457,
+    "PSO-PID": 1.5537873758558471,
+    "Fuzzy-PID": 1.7148487510533617,
+    "ELM-PID": 1.6013901607909302,
+    "PINN-PID": 1.629543808521984
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S7a": {
+   "ordre": [
+    "ELM-PID",
+    "PSO-PID",
+    "PINN-PID",
+    "Ziegler-Nichols",
+    "Fuzzy-PID"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 4.1606437162296634,
+    "PSO-PID": 4.025068736803014,
+    "Fuzzy-PID": 4.720829684889813,
+    "ELM-PID": 3.7641040694539347,
+    "PINN-PID": 4.060794048219529
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S7b": {
+   "ordre": [
+    "ELM-PID",
+    "PINN-PID",
+    "Ziegler-Nichols",
+    "PSO-PID",
+    "Fuzzy-PID"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 2.9253525305630745,
+    "PSO-PID": 3.1387893786362824,
+    "Fuzzy-PID": 3.7137502487207783,
+    "ELM-PID": 2.65767745781312,
+    "PINN-PID": 2.6817214226838364
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S8a": {
+   "ordre": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 12.071919968078197,
+    "PSO-PID": 2.4576071930509333,
+    "Fuzzy-PID": 4.12122362677574,
+    "ELM-PID": 2.964964205793134,
+    "PINN-PID": 2.952278543633339
+   },
+   "revenus": {
+    "Ziegler-Nichols": true,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S8b": {
+   "ordre": [
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Fuzzy-PID",
+    "Ziegler-Nichols"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 77.18532053091205,
+    "PSO-PID": 2.4576912382398985,
+    "Fuzzy-PID": 4.253107713174352,
+    "ELM-PID": 3.031015289491466,
+    "PINN-PID": 2.958656530311231
+   },
+   "revenus": {
+    "Ziegler-Nichols": false,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  },
+  "S9": {
+   "ordre": [
+    "Fuzzy-PID",
+    "PSO-PID",
+    "PINN-PID",
+    "ELM-PID",
+    "Ziegler-Nichols"
+   ],
+   "IAE_mVs": {
+    "Ziegler-Nichols": 531.7988998300216,
+    "PSO-PID": 283.25360659584993,
+    "Fuzzy-PID": 276.10861090962976,
+    "ELM-PID": 294.85850834734106,
+    "PINN-PID": 291.1393511514871
+   },
+   "revenus": {
+    "Ziegler-Nichols": false,
+    "PSO-PID": true,
+    "Fuzzy-PID": true,
+    "ELM-PID": true,
+    "PINN-PID": true
+   }
+  }
+ }
+}
